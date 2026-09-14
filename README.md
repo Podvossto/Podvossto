@@ -2,30 +2,24 @@
 
 **Full-Stack Developer** · B.Sc. Computer Science (1st Class Honors, CGPA 3.93)
 
-I build and ship real products end-to-end — from code and CI/CD to server, domain, and monitoring. Currently running **two live production apps** on my own home server.
+I build and ship real products end-to-end — from code and CI/CD to server, domain, and monitoring.
 
-[![Resume](https://img.shields.io/badge/📄-Resume-0A66C2?style=for-the-badge)](mailto:pitchaya.hut@gmail.com)
 [![Email](https://img.shields.io/badge/Email-pitchaya.hut%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:pitchaya.hut@gmail.com)
 
 ---
 
-## 🚀 Live Projects
+## 🚀 Personal Projects
 
-### ⚡ IoT Energy Monitoring Platform — *LIVE*
-[![power.podvosto.site](https://img.shields.io/badge/🌐_Live-power.podvosto.site-7fd4ff?style=flat-square)](https://power.podvosto.site)
+### ⚡ IoT Energy Monitoring Platform
+
+![Dashboard](assets/energy-dashboard.png)
 
 Realtime smart-home energy dashboard monitoring 10 devices.
 - **Realtime pipeline**: SSE live updates · LAN polling (15s) + cloud polling (30s) → SQLite
 - **Insights engine**: billing forecast, AC session detection, temperature–power correlation — all computed from real data
 - **AI chatbot**: LLM tool-calling with a confirmation gate before executing device control
-- **DevOps**: Docker + Cloudflare Tunnel, automated health checks, Discord alerts
+- **DevOps**: Docker, automated health checks, alerting
 - `Python` `FastAPI` `SQLite` `Docker` `Three.js` `LLM APIs`
-
-### 🎬 Movie Date — *LIVE*
-[![us.podvosto.site/movie](https://img.shields.io/badge/🌐_Live-us.podvosto.site%2Fmovie-ff6b9d?style=flat-square)](https://us.podvosto.site/movie/th)
-
-Web app for watching movies together (Thai UI), self-hosted on a home server.
-- `Next.js` `SQLite` `Docker`
 
 ### 🔄 CI/CD (Home Lab)
 GitLab CI with a self-hosted runner: automatic build checks on dev branches → deploy-on-merge to main with automated verification (HTTP 200 / login checks) and version tagging.
