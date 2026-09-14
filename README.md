@@ -12,7 +12,7 @@ I build and ship real products end-to-end — from code and CI/CD to server, dom
 
 ### ⚡ IoT Energy Monitoring Platform
 
-![Dashboard](assets/energy-dashboard.png)
+![Dashboard](assets/energy-3d.png)
 
 Realtime smart-home energy dashboard monitoring 10 devices.
 - **Realtime pipeline**: SSE live updates · LAN polling (15s) + cloud polling (30s) → SQLite
